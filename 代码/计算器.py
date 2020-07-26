@@ -10,5 +10,4 @@ print(L)
 s=0
 for ss in L:                           #列表内数字相加
     s +=ss
-    
 print(s)

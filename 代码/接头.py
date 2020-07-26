@@ -13,13 +13,8 @@ while True:
         else:
             sum=0
             while sum==0:
-                print('吃枪子吧你！')  
+                print('吃枪子吧你！')
         break
-          
-
-        
     else :
         print('有内鬼停止交易！！')
         break
-        
-
