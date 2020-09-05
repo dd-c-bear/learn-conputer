@@ -1,7 +1,12 @@
-row = int(input('请输入行数: '))
-for i in range(row):
-    for _ in range(row - i - 1):
-        print(' ', end='')
-    for _ in range(2 * i + 1):
-        print('*', end='')
-    print()
+def lsk(func):
+    def desker():
+        func()
+        print('aaaa')
+    return desker
+@lsk
+def smdder ():
+    print('bbbbb')
+
+smdder()
+
+
